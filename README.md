@@ -64,8 +64,8 @@ Since the AWS demonstration instance has been terminated to prevent cost overrun
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/your-username/fraud-triage-system.git](https://github.com/your-username/fraud-triage-system.git)
-    cd fraud-triage-system
+    git clone https://github.com/besarmax/Real-Time-Fraud-Triage-System.git
+    cd Real-Time-Fraud-Triage-System
     ```
 
 2.  **Configure Environment Variables**
