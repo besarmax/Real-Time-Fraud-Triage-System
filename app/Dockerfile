@@ -19,4 +19,5 @@ EXPOSE 8501
 
 # The command to run the app
 # UPDATE 'app.py' to match your main filename (e.g., dashboard.py, main.py)
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
+CMD ["streamlit", "run", "fraud_viz.py", "--server.port=8501", "--server.address=0.0.0.0"]
