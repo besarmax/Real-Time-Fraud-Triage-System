@@ -32,14 +32,13 @@ The system is composed of three Dockerized services orchestrated via `docker-com
 ## 📸 Screenshots
 
 ### 1. The Triage Dashboard
-*(Replace this text with a screenshot of your Streamlit app showing the table of transactions)*
-![Dashboard View](screenshots/dashboard_view.png)
-*Live view of incoming transactions with high-risk items highlighted in red.*
+<img width="1098" height="599" alt="dashboard_view png" src="https://github.com/user-attachments/assets/2708c5a6-e7c6-48dc-9dec-299dceeeff9f" />
+
 
 ### 2. Infrastructure Setup
-*(Replace this text with a screenshot of your VS Code terminal or AWS console)*
-![System Architecture](screenshots/terminal_setup.png)
-*Docker containers running the database and application services.*
+<img width="848" height="215" alt="terminal_setup" src="https://github.com/user-attachments/assets/027cc833-11a0-458c-a033-5047f9cd80de" />
+
+
 
 ---
 
