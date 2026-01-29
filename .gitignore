@@ -1,0 +1,19 @@
+# --- Python Junk ---
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+
+# --- IDE & System Files ---
+.vscode/
+.DS_Store
+
+# --- Large Data & Database Files ---
+# Ignore the raw dataset (too big for GitHub)
+fraud_data.csv
+creditcard.csv
+
+# Ignore the local database file (binary file)
+fraud_system
+*.db
+*.sqlite
