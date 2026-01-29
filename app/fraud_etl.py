@@ -92,4 +92,5 @@ if __name__ == "__main__":
     raw = extract_data()
     if raw is not None:
         safe, suspicious = transform_data(raw)
+
         load_data(safe, suspicious)
