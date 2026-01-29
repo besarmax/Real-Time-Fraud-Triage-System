@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  # Service 1: The Database
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: fraud_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Service 2: Your Dashboard App
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      # These match the database credentials above
+      DB_HOST: db
+      DB_NAME: fraud_db
+      DB_USER: admin
+      DB_PASSWORD: password123
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
