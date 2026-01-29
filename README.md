@@ -68,12 +68,12 @@ Since the AWS demonstration instance has been terminated to prevent cost overrun
     cd Real-Time-Fraud-Triage-System
     ```
 
-2.  **Configure Environment Variables**
-    Create a `.env` file in the root directory. You can use the example provided:
-    ```bash
-    cp .env.example .env
-    ```
-    *Note: The `.env` file handles database credentials and configuration to ensure security best practices.*
+2. **Configure Environment Variables**
+   Create a `.env` file in the root directory. You can use the example provided as a template:
+
+   ```bash
+   cp .env.example .env
+   # Or on Windows Command Prompt: copy .env.example .env
 
 3.  **Build and Run**
     Execute the Docker Compose command to build the images and start the network:
