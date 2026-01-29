@@ -75,11 +75,11 @@ Since the AWS demonstration instance has been terminated to prevent cost overrun
    cp .env.example .env
    # Or on Windows Command Prompt: copy .env.example .env
 
-3.  **Build and Run**
-    Execute the Docker Compose command to build the images and start the network:
-    ```bash
-    docker-compose up --build
-    ```
+3. **Build and Run**
+   Execute the Docker Compose command to build the images and start the network:
+
+   ```bash
+   docker-compose up --build
 
 4.  **Access the Dashboard**
     Open your web browser and navigate to:
