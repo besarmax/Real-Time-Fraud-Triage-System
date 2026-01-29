@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS transactions (
+    id SERIAL PRIMARY KEY,
+    amount FLOAT NOT NULL,
+    is_fraud BOOLEAN NOT NULL,
+    fraud_score FLOAT NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
